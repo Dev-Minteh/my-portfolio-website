@@ -27,7 +27,7 @@ const HeroSection = () => {
          animate={{ opacity: 1, y: 0 }}
          transition={{ delay: 1, duration: 0.8 }} className="flex flex-wrap gap-4 pt-8">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Dev-Minteh"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-2 bg-black text-white rounded-lg shadow hover:bg-gray-800 transition-all"
