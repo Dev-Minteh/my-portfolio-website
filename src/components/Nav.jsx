@@ -42,14 +42,21 @@ export default function Nav() {
           <li>Projects</li>
           <li>Contacts</li>
         </ul>
-         <a
-             href="/cv.pdf"
-              target="_blank"
-            rel="noopener noreferrer"
+         <button
+            onClick={() => {
+              const pdfUrl = '/Modou_Lamin_Minteh_CV.pdf';
+              window.open(pdfUrl, '_blank', 'noopener');
+              const link = document.createElement('a');
+              link.href = pdfUrl;
+              link.download = 'Modou_Lamin_Minteh_CV.pdf';
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+            }}
             className="hidden md:inline-block bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700 transition"
           >
             Download CV
-          </a>
+          </button>
       </div>  
       {open && (
         <ul className="flex flex-col gap-2 mt-2 md:hidden bg-white shadow rounded p-2">
@@ -59,14 +66,21 @@ export default function Nav() {
           <li>Projects</li>
           <li>Contacts</li>
           <li>
-              <a
-              href="/cv.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={() => {
+                const pdfUrl = '/Modou_Lamin_Minteh_CV.pdf';
+                window.open(pdfUrl, '_blank', 'noopener');
+                const link = document.createElement('a');
+                link.href = pdfUrl;
+                link.download = 'Modou_Lamin_Minteh_CV.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
               className="block bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700 transition mt-2"
             >
               Download CV
-            </a>
+            </button>
           </li>
         </ul>
       )}
