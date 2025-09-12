@@ -16,7 +16,7 @@ export default function About() {
 
     <div className="md:w-1/2 flex justify-center">
       <img
-        src="/public/images/profile1.jpg"
+        src="/images/profile1.jpg"
         alt="Mollar"
         className="w-64 h-64 object-cover rounded-2xl shadow-lg"
       />

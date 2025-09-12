@@ -108,7 +108,7 @@ const projects = [
     description: "An improved version of the e-commerce store with more features.",
     live: "https://sneaker-website-gray.vercel.app/",
     github: "https://github.com/Dev-Minteh/Sneaker-Website.git",
-    image: "public/images/Screenshot (29).png",
+    image: "images/Screenshot (29).png",
     tech: ["React", "Tailwind", "Context API", "Redux"],
   },
 ];
