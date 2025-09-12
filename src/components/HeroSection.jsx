@@ -57,7 +57,7 @@ const HeroSection = () => {
             <div className="absolute -top-4 -left-4 w-20 h-20 bg-blue-100 rounded-full blur-xl z-0"></div>
             <div className="relative z-10">
               <img
-                src="/public/images/profile1.jpg"
+                src="/images/profile1.jpg"
                 alt="Developer Portrait"
                 className="w-64 h-64 object-cover rounded-2xl border-4 border-blue-200 shadow-xl"
               />

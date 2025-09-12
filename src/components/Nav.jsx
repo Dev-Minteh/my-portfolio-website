@@ -43,8 +43,8 @@ export default function Nav() {
           <li>Contacts</li>
         </ul>
          <a
-            href="public\Modou_Lamin_Minteh_CV.pdf"
-            target="_blank"
+             href="/cv.pdf"
+              target="_blank"
             rel="noopener noreferrer"
             className="hidden md:inline-block bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700 transition"
           >
