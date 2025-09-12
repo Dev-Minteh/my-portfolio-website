@@ -75,7 +75,7 @@ const projects = [
     title: "Tip Calculator",
     description: "A simple React app to calculate tips and split bills.",
     live: "https://your-tip-app.netlify.app",
-    github: "https://github.com/yourusername/tip-calculator",
+    github: "https://github.com/Dev-Minteh/Tip-calculator.git",
     image: "images/Screenshot (14).png",
     tech: ["React", "Tailwind"],
   },
@@ -98,18 +98,18 @@ const projects = [
    {
     title: "World Countries",
     description: "A website where you can search countries at any part of the world.",
-    live: "https://your-store-v2.netlify.app",
-    github: "https://github.com/yourusername/storecom-v2",
-    image: "Screenshot (15).png",
+    live: "https://world-countries-ten-mu.vercel.app/",
+    github: "https://github.com/Dev-Minteh/world-countries.git",
+    image: "images/Screenshot (15).png",
     tech: ["React", "Tailwind"],
   },
   {
-    title: "StoreCom v2",
+    title: "Sneakers Website",
     description: "An improved version of the e-commerce store with more features.",
-    live: "https://your-store-v2.netlify.app",
-    github: "https://github.com/yourusername/storecom-v2",
-    image: "https://source.unsplash.com/600x400/?online-store,tech",
-    tech: ["React", "Tailwind", "Context API"],
+    live: "https://sneaker-website-gray.vercel.app/",
+    github: "https://github.com/Dev-Minteh/Sneaker-Website.git",
+    image: "public/images/Screenshot (29).png",
+    tech: ["React", "Tailwind", "Context API", "Redux"],
   },
 ];
 
@@ -168,6 +168,8 @@ const projects = [
     </section>
   );
 }
+
+
 
 
 
