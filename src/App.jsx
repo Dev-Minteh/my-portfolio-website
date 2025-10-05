@@ -9,6 +9,8 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
+
+
 export default function App() {
   useEffect(() => {
     AOS.init({ duration: 1000 });

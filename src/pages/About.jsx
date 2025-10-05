@@ -1,3 +1,7 @@
+
+import { motion } from "framer-motion"; 
+import { FiCode, FiBookOpen, FiStar } from "react-icons/fi";
+
 export default function About() {
   return (
    <section id="about" className="py-20  px-4 sm:px-12 bg-white" data-aos="fade-up">
@@ -16,7 +20,7 @@ export default function About() {
 
     <div className="md:w-1/2 flex justify-center">
       <img
-        src="/images/profile1.jpg"
+        src="/public/images/profile1.jpg"
         alt="Mollar"
         className="w-64 h-64 object-cover rounded-2xl shadow-lg"
       />
