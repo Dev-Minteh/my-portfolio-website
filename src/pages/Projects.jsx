@@ -220,11 +220,3 @@ export default function Projects() {
     </section>
   );
 }
-<<<<<<< HEAD
-
-
-
-
-
-=======
->>>>>>> fc0b303 (updated: heresection, about, skills, project, and footer)

@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 // import {
 //   SiHtml5,
 //   SiCss3,
@@ -45,7 +44,7 @@
 
 //   );
 // }
->>>>>>> fc0b303 (updated: heresection, about, skills, project, and footer)
+
 
 
 import {

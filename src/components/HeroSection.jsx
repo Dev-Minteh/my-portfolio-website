@@ -160,11 +160,7 @@ const HeroSection = () => {
 
             <div className="relative z-10 p-2 bg-white/80 backdrop-blur-md rounded-2xl shadow-2xl">
               <img
-<<<<<<< HEAD
-                src="/images/profile1.jpg"
-=======
                 src="/images/my_image.jpg"
->>>>>>> fc0b303 (updated: heresection, about, skills, project, and footer)
                 alt="Developer Portrait"
                 className="w-72 h-72 object-cover rounded-2xl border-4 border-blue-200 shadow-xl"
               />
