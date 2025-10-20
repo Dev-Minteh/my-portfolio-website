@@ -54,7 +54,7 @@ export default function About() {
           <p className="text-gray-700 text-lg leading-relaxed mb-6">
             I'm a junior <span className="font-semibold text-blue-600">frontend developer</span> currently studying at 
             <strong> Jasseh Code Camp (JCC)</strong>.  
-            I’ve completed my first phase in <strong>Frontend Development Part 1</strong> (HTML, JavaScript, React), 
+            I’ve completed my first phase in <strong>Frontend Development Part 1</strong> (HTML, CSS, JavaScript), 
             and I’m now continuing with <strong>Frontend Development Part 2</strong>, 
             diving deeper into <strong>React, Tailwind CSS, and TypeScript</strong>.  
           </p>
