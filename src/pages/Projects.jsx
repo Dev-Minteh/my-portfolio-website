@@ -701,6 +701,15 @@ const projects = [
     tech: ["React", "Tailwind"],
     status: "completed"
   },
+   {
+    title: "Student management system",
+    description: "A simple React app to manage student information and records.",
+    live: "https://student-management-system-swart-eta.vercel.app/",
+    github: "https://github.com/Dev-Minteh/Student-management-system.git",
+    image: "images/sms.png",
+    tech: ["React", "Tailwind, javaScript, context api"],
+    status: "in-progress"
+  },
   {
     title: "StorCom",
     description: "A simple e-commerce website for shopping.",
